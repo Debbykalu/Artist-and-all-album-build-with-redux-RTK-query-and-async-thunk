@@ -4,6 +4,7 @@ import { fetchUsers, addUsers } from "../store";
 import Button from './Button';
 import { useSelector } from "react-redux";
 import Skelecton from "./Skelecton";
+import UserListItem from "./UserListItem";
 
 
 const UsersList = () => {
@@ -16,7 +17,7 @@ const UsersList = () => {
 
     useEffect(() => {
         getFetchUsers();
-    }, []);
+    }, [getFetchUsers]);
 
     const handleUserAdd = () => {
         getCreateUsers();
@@ -30,11 +31,8 @@ const UsersList = () => {
         content = <div>Error fetching data...</div> 
 }else{
     content = data.map((user) => {
-        return <div key={user.id} className="mb-2 border rounded mt-3">
-            <div className="flex p-2 justify-between items-center cursor-pointer">
-                {user.name}
-            </div>
-        </div>
+
+        return <UserListItem  key={user.id} user={user} />
     })
 
 }
