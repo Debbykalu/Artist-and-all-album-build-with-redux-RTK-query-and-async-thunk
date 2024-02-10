@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Mayre"
+    },
+    {
+      "name": "Maureen Walter",
+      "id": 2
+    },
+    {
+      "name": "Constance Schumm PhD",
+      "id": 3
+    },
+    {
+      "name": "Molly Paucek",
+      "id": 4
+    },
+    {
+      "name": "Pete Beatty",
+      "id": 5
+    },
+    {
+      "name": "Miss Sean Nienow",
+      "id": 6
+    },
+    {
+      "name": "Alton Funk",
+      "id": 7
+    }
+  ],
+  "album": [],
+  "photos": []
+}
