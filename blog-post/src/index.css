@@ -1,0 +1,100 @@
+/* Styles for the overall container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for the blog form card on the left */
+.blog-form-card {
+  flex: 1;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Additional styles for form inputs, buttons, etc. */
+.blog-form-card label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.blog-form-card input,
+.blog-form-card textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.blog-form-card button {
+  background-color: #3490dc;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* Styles for the blog list card on the right */
+.blog-list-card {
+  flex: 1;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for blog list items */
+.blog-list-card .blog-post {
+  background-color: #f5f0f0;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-list-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.blog-list-card p {
+  color: #555555;
+  margin-bottom: 10px;
+}
+
+/* Additional styles for likes and comments section */
+.blog-list-card .interaction-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-list-card button {
+  background-color: #3490dc;
+  color: #ffffff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.blog-list-card input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+
+
