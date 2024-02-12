@@ -5,22 +5,50 @@
       "name": "Mayre"
     },
     {
-      "name": "Constance Schumm PhD",
-      "id": 3
-    },
-    {
-      "name": "Molly Paucek",
-      "id": 4
-    },
-    {
-      "name": "Pete Beatty",
-      "id": 5
-    },
-    {
       "name": "Miss Sean Nienow",
       "id": 6
+    },
+    {
+      "name": "Luis DuBuque",
+      "id": 7
+    },
+    {
+      "name": "Phillip Larson",
+      "id": 8
     }
   ],
-  "album": [],
-  "photos": []
+  "albums": [
+    {
+      "userId": 7,
+      "title": "Small Concrete Soap",
+      "id": 39
+    },
+    {
+      "userId": 1,
+      "title": "Ergonomic Soft Mouse",
+      "id": 40
+    },
+    {
+      "userId": 1,
+      "title": "Practical Rubber Soap",
+      "id": 41
+    },
+    {
+      "userId": 1,
+      "title": "Oriental Cotton Hat",
+      "id": 42
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 40,
+      "url": "https://loremflickr.com/150/150/abstract?lock=88284",
+      "id": 1
+    },
+    {
+      "albumId": 41,
+      "url": "https://loremflickr.com/150/150/abstract?lock=56587",
+      "id": 2
+    }
+  ]
 }
