@@ -1,41 +1,22 @@
 {
   "users": [
     {
-      "id": "1",
-      "username": "john_doe",
-      "email": "john@example.com"
-    },
-   
-    
-    {
-      "id": "8c68",
-      "user": "",
-      "title": "",
-      "body": ""
-    },
-    {
-      "id": "5827",
+      "id": "33ec",
       "user": "Agness",
-      "title": "Redux",
-      "body": "I'm using the Redux tool kits query to test my ability"
+      "title": "Fetch",
+      "body": "Explanation:\nUsing the native fetch API is the simplest way to make HTTP requests. It returns a Promise that resolves to the Response to that request, whether it is successful or not. You manually handle the request, response, and error states.I just edited this!"
     },
     {
-      "id": "3d3e",
-      "user": "Agness",
-      "title": "Redux",
-      "body": "I'm using the Redux tool kits query to test my ability"
+      "id": "0abe",
+      "user": "Abitsek",
+      "title": "Redux Thunk:",
+      "body": "Redux Thunk is a middleware for Redux that allows you to write action creators that return functions instead of plain objects. This is useful for handling asynchronous logic, such as API calls, before dispatching actions. tags has been added"
     },
     {
-      "id": "cfc8",
-      "user": "Maira",
-      "title": "Dancing",
-      "body": "I'm like to dance to Afrobeat"
-    },
-    {
-      "id": "c0b0",
-      "user": "Maira",
-      "title": "Dancing",
-      "body": "ghana"
+      "id": "716a",
+      "user": "Abbey",
+      "title": "RTK Query",
+      "body": "Explanation:\nRedux Toolkit (RTK) provides a powerful data fetching solution called RTK Query. It simplifies the process of fetching, caching, and updating data by automatically generating slices, actions, and hooks based on your API endpoints."
     }
   ]
 }

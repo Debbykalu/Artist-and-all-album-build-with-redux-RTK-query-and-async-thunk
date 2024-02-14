@@ -14,7 +14,8 @@ setupListeners(store.dispatch)
 
 export { 
   useGetPostsQuery, 
-  useAddPostMutation  
+  useAddPostMutation,
+  useRemovePostMutation 
 } from './api.js/blogPostApi'
 
 

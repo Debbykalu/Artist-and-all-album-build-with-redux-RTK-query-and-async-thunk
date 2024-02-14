@@ -69,6 +69,9 @@
   margin-bottom: 8px;
 }
 
+.blog-list-card .edit{
+  margin-left: 10px;
+}
 .blog-list-card p {
   color: #555555;
   margin-bottom: 10px;
